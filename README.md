@@ -10,7 +10,7 @@ Shor's algorithm, named after mathematician Peter Shor, is a quantum algorithm (
 
 ## Disclaimer
 
-Since GitHub has some issues in rendering LaTeX notation, use the following links to visualize the notebooks:
+GitHub has sometimes some issues in rendering LaTeX notation. Hopefully, everything should be understandable, otherwise use the following link to visualize the notebook (note however that *nbviewer* does not show some images):
 - [Shor's algorithm](https://nbviewer.jupyter.org/github/mett29/Shor-s-Algorithm/blob/master/Shor.ipynb)
 
 ## Overview
@@ -25,7 +25,9 @@ Since GitHub has some issues in rendering LaTeX notation, use the following link
 - Complexity on classical computer:
 ![classical_complexity](https://wikimedia.org/api/rest_v1/media/math/render/svg/1956460a1cea4f2794fa0487f886e2a64cedc244)
 
-![complexity_graph](https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/shor-figure1l0qpbqeb138fr.png)
+![complexity_graph](https://iqx-docs.quantum-computing.ibm.com/_images/shor-figure1l0qpbqeb138fr.png)
+
+*Image credits: https://quantum-computing.ibm.com/docs/iqx/guide/shors-algorithm*
 
 ## Structure of the algorithm
 
