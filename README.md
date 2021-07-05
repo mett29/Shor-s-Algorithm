@@ -10,8 +10,13 @@ Shor's algorithm, named after mathematician Peter Shor, is a quantum algorithm (
 
 ## Disclaimer
 
-GitHub has sometimes some issues in rendering LaTeX notation. Hopefully, everything should be understandable, otherwise use the following link to visualize the notebook (note however that *nbviewer* does not show some images):
+GitHub has sometimes some issues in rendering LaTeX notation. Hopefully, everything should be understandable, otherwise use the following link to visualize the notebook:
 - [Shor's algorithm](https://nbviewer.jupyter.org/github/mett29/Shor-s-Algorithm/blob/master/Shor.ipynb)
+
+Alternatively, just clone this repository and launch ```jupyter lab```.
+```
+git clone https://github.com/mett29/Shor-s-Algorithm.git
+```
 
 ## Overview
 
@@ -19,13 +24,11 @@ GitHub has sometimes some issues in rendering LaTeX notation. Hopefully, everyth
 
 **Complexity:**
 
-- Complexity on quantum computer: 
-![quantum_complexity](https://wikimedia.org/api/rest_v1/media/math/render/svg/41344b55ef5e6494bb835b1adde9a4be4403303c)
+- Complexity on quantum computer: $\quad \mathcal{O}\;\Big((\log N)^2(\log \log N)(\log \log \log N)\Big)$
 
-- Complexity on classical computer:
-![classical_complexity](https://wikimedia.org/api/rest_v1/media/math/render/svg/1956460a1cea4f2794fa0487f886e2a64cedc244)
+- Complexity on classical computer: $\quad \mathcal{O}\; \Big(e^{1.9(\log N)^{\frac{1}{3}}(\log \log N)^{\frac{2}{3}}} \Big)$
 
-![complexity_graph](https://iqx-docs.quantum-computing.ibm.com/_images/shor-figure1l0qpbqeb138fr.png)
+<img src="img/complexity.png" width="550" height="300"/>
 
 *Image credits: https://quantum-computing.ibm.com/docs/iqx/guide/shors-algorithm*
 
