@@ -2,16 +2,14 @@
 
 This project was done as part of the *Software Engineering 2* course at Polytechnic of Milan. The aim was to explore the field of Quantum Computing to understand its characteristics and potential. In order to accomplish this task, I and other colleagues started from the paper [Quantum Algorithm Implementations for Beginners](https://arxiv.org/pdf/1804.03719.pdf), from which each person chose an algorithm and then started its study. As you can understand, my algorithm is the Shor's algorithm.
 
-This is instead the link to the common repository, grouping all the algorithms: [repo](https://github.com/zommiommy/quantum_research)
-
 # Shor's algorithm
 
 Shor's algorithm, named after mathematician Peter Shor, is a quantum algorithm (an algorithm that runs on a quantum computer) for integer factorization, formulated in 1994. Informally, it solves the following problem: Given an integer **N**, find its prime factors.
 
 ## Disclaimer
 
-GitHub has sometimes some issues in rendering LaTeX notation. Hopefully, everything should be understandable, otherwise use the following link to visualize the notebook:
-- [Shor's algorithm](https://nbviewer.jupyter.org/github/mett29/Shor-s-Algorithm/blob/master/Shor.ipynb)
+GitHub has some issues in rendering LaTeX notation. Hopefully, everything should be understandable, otherwise use the following link to visualize the notebook:
+- [Shor's algorithm (open with nbviewer)](https://nbviewer.jupyter.org/github/mett29/Shor-s-Algorithm/blob/master/Shor.ipynb)
 
 Alternatively, just clone this repository and launch ```jupyter lab```.
 ```
@@ -24,11 +22,13 @@ git clone https://github.com/mett29/Shor-s-Algorithm.git
 
 **Complexity:**
 
-- Complexity on quantum computer: $\quad \mathcal{O}\;\Big((\log N)^2(\log \log N)(\log \log \log N)\Big)$
+- Complexity on quantum computer:
+![quantum_complexity](https://wikimedia.org/api/rest_v1/media/math/render/svg/41344b55ef5e6494bb835b1adde9a4be4403303c)
 
-- Complexity on classical computer: $\quad \mathcal{O}\; \Big(e^{1.9(\log N)^{\frac{1}{3}}(\log \log N)^{\frac{2}{3}}} \Big)$
+- Complexity on classical computer:
+![classical_complexity](https://wikimedia.org/api/rest_v1/media/math/render/svg/1956460a1cea4f2794fa0487f886e2a64cedc244)
 
-<img src="img/complexity.png" width="550" height="300"/>
+<img src="img/complexity.png" width="650" height="300"/>
 
 *Image credits: https://quantum-computing.ibm.com/docs/iqx/guide/shors-algorithm*
 
