@@ -9,7 +9,7 @@ Shor's algorithm, named after mathematician Peter Shor, is a quantum algorithm (
 ## Disclaimer
 
 GitHub has some issues in rendering LaTeX notation. Hopefully, everything should be understandable, otherwise use the following link to visualize the notebook:
-- [Shor's algorithm (open with nbviewer)](https://nbviewer.jupyter.org/github/mett29/Shor-s-Algorithm/blob/master/Shor.ipynb)
+- [Shor's algorithm (open with nbviewer)](https://nbviewer.jupyter.org/github/mett29/Shor-s-Algorithm/blob/master/Shor.ipynb?flush_cache=true)
 
 Alternatively, just clone this repository and launch ```jupyter lab```.
 ```
